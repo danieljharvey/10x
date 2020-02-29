@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash.debounce": "^4.0.8",
+    "typescript-simple": "^8.0.6",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "monaco-editor": "^0.19.0",
+    "style-loader": "^1.1.1",
+    "terser-webpack-plugin": "^2.3.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  }
+}
