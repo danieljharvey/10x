@@ -14,5 +14,5 @@ interface Dog {
   name: string;
 }
 
-const typecheckMe = (input: Cat): Dog => {
+const typecheckMe = (input: Cat): Dog => {return {...input, _type: "Dog"}
 }

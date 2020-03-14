@@ -34,6 +34,8 @@ const Column = styled.section`
   flex: 1;
   display: flex;
   flex-direction: column;
+  max-width: 50%;
+  align-items: center;
 `;
 
 interface Config {

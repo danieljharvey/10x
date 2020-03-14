@@ -18,12 +18,10 @@ interface ErrorBoxProps {
 
 export const ErrorBox: React.FC<ErrorBoxProps> = ({ errors }) => (
   <Box isError={Boolean(errors.length > 0)}>
-    <code>
-      {errors.length > 0 ? (
-        errors.map((error: string, key) => <pre key={key}>{error}</pre>)
-      ) : (
-        <span role="img">👍</span>
-      )}
-    </code>
+    {errors.length > 0 ? (
+      errors.map((error: string, key) => <span key={key}>{error}</span>)
+    ) : (
+      <span role="img">👍</span>
+    )}
   </Box>
 );
